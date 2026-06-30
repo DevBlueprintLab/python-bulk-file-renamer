@@ -36,11 +36,18 @@ This tool automates the process by applying consistent filenames, saving time an
 
 ### 🔍 Before Execution & Runtime Overview
 
-*(Add a screenshot of your test folder before renaming and a screenshot of the terminal.)*
+<p align="center">
+  <img src="images/before.png" width="350"/>
+  <img src="images/terminal.png" width="350"/>
+</p>
+
+---
 
 ### ✨ Post-Execution Result
 
-*(Add a screenshot showing the renamed files.)*
+<p align="center">
+  <img src="images/after.png" width="500"/>
+</p>
 
 ---
 
