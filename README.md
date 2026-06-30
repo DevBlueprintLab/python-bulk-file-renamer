@@ -76,11 +76,6 @@ git clone https://github.com/DevBlueprintLab/python-bulk-file-renamer.git
 python file_renamer.py
 ```
 
-4. Enter:
-   - the folder path
-   - your preferred filename prefix
-   - confirm the operation
-
 The script will safely rename all supported files while preserving their original extensions.
 
 ## 📊 Example Output
