@@ -12,7 +12,7 @@ Automatically renames files in bulk using a custom prefix while preserving their
 
 ---
 
-## ⭐ Why this project matters
+##  Why this project matters
 
 Renaming files one by one is repetitive and inefficient, especially when dealing with large collections of photos, documents, or media files.
 
