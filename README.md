@@ -136,13 +136,7 @@ RenameTest/
 
 ---
 
-## 🚀 Future Improvements
 
-- Add suffix support in addition to prefixes
-- Preview changes before renaming files
-- Allow renaming based on dates or metadata
-- Add undo functionality
-- Build a graphical user interface (GUI)
 
 ---
 
