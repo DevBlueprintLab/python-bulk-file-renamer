@@ -1,8 +1,6 @@
 # 📝 Python Bulk File Renamer
 
-![Python](https://img.shields.io/badge/Python-3.x-blue)
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-![Type](https://img.shields.io/badge/Type-Automation%20Tool-purple)
+
 
 ---
 
