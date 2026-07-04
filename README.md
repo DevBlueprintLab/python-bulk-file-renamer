@@ -19,19 +19,6 @@ Renaming files one by one is repetitive and inefficient, especially when dealing
 This tool automates the process by applying consistent filenames, saving time and reducing manual work.
 
 ---
-
-## 🧠 Key Features
-
-- 📝 Renames files in bulk with a custom prefix
-- 🔢 Automatically numbers files using leading zeros (001, 002, 003...)
-- 📂 Preserves original file extensions
-- 🚫 Skips folders and common hidden/system files
-- ⚠️ Prevents duplicate filenames
-- 💬 Interactive confirmation before renaming
-- 📊 Displays every renamed file and a summary
-
----
-
 ## 🖥️ Demo
 
 ### 🔍 Before Execution & Runtime Overview
@@ -48,6 +35,18 @@ This tool automates the process by applying consistent filenames, saving time an
 <p align="center">
   <img src="images/after.png" width="500"/>
 </p>
+
+
+## 🧠 Key Features
+
+- 📝 Renames files in bulk with a custom prefix
+- 🔢 Automatically numbers files using leading zeros (001, 002, 003...)
+- 📂 Preserves original file extensions
+- 🚫 Skips folders and common hidden/system files
+- ⚠️ Prevents duplicate filenames
+- 💬 Interactive confirmation before renaming
+- 📊 Displays every renamed file and a summary
+
 
 ---
 
