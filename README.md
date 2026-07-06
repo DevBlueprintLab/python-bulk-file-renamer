@@ -54,7 +54,7 @@ cd Python-Bulk-File-Renamer
 ```
 ### 2. Run the tool
 ```bash
-python Bulk-File-Renamer.py
+python bulk_file_renamer.py
 
 ```
 ### 3. Execution example
