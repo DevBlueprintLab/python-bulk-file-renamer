@@ -95,26 +95,12 @@ Python-Bulk-File-Renamer/
 
 ---
 
-## 📚 What I Learned
-
-- Working with `pathlib`
-- Renaming files safely
-- Validating user input
-- Handling duplicate filenames
-- Skipping hidden and system files
-- Building interactive command-line tools
-- Writing cleaner and more maintainable Python code
-
----
-
-## 🚀 Future Improvements
-
-- Add suffix support in addition to prefixes
-- Preview changes before renaming files
-- Allow renaming based on dates or metadata
-- Add undo functionality
-- Build a graphical user interface (GUI)
-
+## 🔮 Roadmap & Future Improvements
+ * Add suffix-based renaming support
+ * Add preview mode before execution
+ * Support metadata-based renaming (dates, timestamps)
+ * Add undo functionality
+ * GUI version for non-technical users
 ---
 
 Created by **DevBlueprint Lab**
