@@ -49,8 +49,8 @@ The program processes files safely by validating inputs, applying sequential nam
 
 ### 1. Clone repository
 ```bash
-git clone https://github.com/DevBlueprintLab/python-bulk-file-renamer.git
-cd python-bulk-file-renamer
+git clone https://github.com/DevBlueprintLab/Python-Bulk-File-Renamer.git
+cd Python-Bulk-File-Renamer
 ```
 ### 2. Run the tool
 ```bash
