@@ -52,22 +52,32 @@ The program processes files safely by validating inputs, applying sequential nam
 git clone https://github.com/DevBlueprintLab/python-bulk-file-renamer.git
 cd python-bulk-file-renamer
 ```
-## 🚀 How to Run
-
-1. Clone this repository.
-
+### 2. Run the tool
 ```bash
-git clone https://github.com/DevBlueprintLab/python-bulk-file-renamer.git
+python Bulk-File-Renamer.py
+
 ```
-
-2. Open a terminal in the project folder.
-
-3. Run the script.
-
+### 3. Execution example
 ```bash
-python file_renamer.py
-```
+Enter folder path:
+D:\RenameTest
 
+Enter a prefix:
+Holiday
+
+Rename files (y/n)?
+y
+
+✓ Renamed:
+IMG001.jpg → Holiday_001.jpg
+
+✓ Renamed:
+IMG002.jpg → Holiday_002.jpg
+
+Finished!
+
+Files renamed: 8
+```
 The script will safely rename all supported files while preserving their original extensions.
 
 ## 📊 Example Output
