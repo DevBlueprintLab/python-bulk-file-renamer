@@ -84,9 +84,9 @@ The script will safely rename all supported files while preserving their origina
 ## 📁 Project Structure
 
 ```text
-Python-Bulk-File-Renamer/
-├── Bulk File Renamer.py       # Main automation script
-├── README.md             # Project documentation
+python-bulk-file-renamer/
+├── bulk_file_renamer.py    # Main automation script
+├── README.md               # Project documentation
 └── images/
     ├── before.png
     ├── terminal.png
