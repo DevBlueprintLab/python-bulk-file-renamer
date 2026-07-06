@@ -80,48 +80,17 @@ Files renamed: 8
 ```
 The script will safely rename all supported files while preserving their original extensions.
 
-## 📊 Example Output
-
-```text
-Enter folder path:
-D:\RenameTest
-
-Enter a prefix:
-Holiday
-
-Rename files (y/n)?
-y
-
-✓ Renamed:
-
-IMG001.jpg
-↓
-
-Holiday_001.jpg
-
-✓ Renamed:
-
-IMG002.jpg
-↓
-
-Holiday_002.jpg
-
-Finished!
-
-Files renamed: 8
-```
-
----
 
 ## 📁 Project Structure
 
 ```text
-RenameTest/
-├── Holiday_001.jpg
-├── Holiday_002.jpg
-├── Holiday_003.png
-├── Holiday_004.pdf
-└── ...
+Python-Bulk-File-Renamer/
+├── Bulk File Renamer.py       # Main automation script
+├── README.md             # Project documentation
+└── images/
+    ├── before.png
+    ├── terminal.png
+    └── after.png
 ```
 
 ---
