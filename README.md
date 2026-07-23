@@ -3,7 +3,7 @@
 ![Python Version](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-
+A Python automation tool that renames multiple files in a directory using a consistent naming pattern while preserving their original file extensions.
 
 The program validates the target folder, applies sequential numbering, prevents filename conflicts, and safely skips directories and common system files during processing.
 
