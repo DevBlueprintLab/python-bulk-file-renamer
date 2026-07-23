@@ -1,64 +1,101 @@
 # 📝 Python Bulk File Renamer
 
 ![Python Version](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)
-![Dependencies](https://img.shields.io/badge/Dependencies-pathlib%20%7C%20sys-orange)
-![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-A Python CLI automation tool that renames multiple files in a directory using a consistent naming pattern while preserving original file extensions.
+A Python automation tool that renames multiple files in a directory using a consistent naming pattern while preserving their original file extensions.
 
-The program processes files safely by validating inputs, applying sequential naming, and ensuring no overwriting or conflicts occur during execution.
+The program validates the target folder, applies sequential numbering, prevents filename conflicts, and safely skips directories and common system files during processing.
 
 ---
 
-## 🖥️ Pipeline Lifecycle & Live Demo
+# 🖥️ Demo
 
-### Ingestion ➔ Processing ➔ Output
+### Original Files ➜ Automated Renaming ➜ Renamed Files
 
 <p align="center">
-  <img src="images/before.png" width="380" alt="Original File State" />
-  <img src="images/terminal.png" width="380" alt="CLI Execution Process" />
+  <img src="images/folder-before.png" width="380" alt="Original files" />
+  <img src="images/renaming-process.png" width="380" alt="Renaming process" />
 </p>
 
 <p align="center">
-  <img src="images/after.png" width="765" alt="Renamed Files Output" />
+  <img src="images/folder-after.png" width="765" alt="Renamed files" />
 </p>
 
 ---
 
-## 🧠 Core Features & Architecture
+# 🎯 Problem
 
-* 📝 **Batch File Renaming:** Renames multiple files in a directory using a user-defined prefix.
-* 🔢 **Sequential Indexing:** Applies automatic numbering with leading zeros (001, 002, 003…).
-* 📂 **Extension Preservation:** Keeps original file types unchanged during renaming.
-* 🚫 **Safe Processing:** Skips directories and hidden/system files to avoid unintended modifications.
-* ⚠️ **Conflict Prevention:** Ensures no duplicate filenames are created during execution.
-* 💬 **User Interaction:** Requires confirmation before applying changes.
+Renaming large groups of files manually is repetitive and time-consuming. Maintaining consistent filenames is especially important when organizing photos, documents, datasets, or project assets.
 
 ---
 
-## 🛠️ Tech Stack & Requirements
+# ✅ Solution
 
-* **Core Language:** Python 3.x  
-* **File Handling:** `pathlib`  
-* **System Utilities:** `sys`  
+This tool automates batch file renaming by:
+
+- Renaming files using a custom user-defined prefix
+- Applying sequential numbering with leading zeros
+- Preserving original file extensions
+- Avoiding filename conflicts automatically
+- Skipping folders and common system files
+- Requesting confirmation before making changes
 
 ---
 
-## ⚡ Quick Start & Usage
+# ⚡ Core Features
 
-### 1. Clone repository
+- 📝 **Batch File Renaming**  
+  Renames every supported file inside the selected directory using a custom prefix.
+
+- 🔢 **Sequential Numbering**  
+  Applies automatic numbering in the format `001`, `002`, `003`, and so on.
+
+- 📂 **Extension Preservation**  
+  Keeps each file's original extension unchanged during renaming.
+
+- 🚫 **Safe Directory Processing**  
+  Ignores subfolders as well as common hidden and system files such as `Thumbs.db` and `desktop.ini`.
+
+- ⚠️ **Conflict Prevention**  
+  Automatically checks for existing filenames and adjusts numbering to prevent overwriting files.
+
+- ✅ **Confirmation Before Execution**  
+  Requires user confirmation before applying any file changes.
+
+---
+
+# 🛠️ Tech Stack
+
+- **Language:** Python 3.x
+- **File Handling:** `pathlib`
+- **System Utilities:** `sys`
+
+**External Dependencies:** None
+
+---
+
+# 🚀 Quick Start
+
+## 1. Clone the repository
+
 ```bash
 git clone https://github.com/DevBlueprintLab/python-bulk-file-renamer.git
+
 cd python-bulk-file-renamer
 ```
-### 2. Run the tool
+
+## 2. Run the tool
+
 ```bash
 python bulk_file_renamer.py
-
 ```
-### 3. Execution example
-```bash
+
+## 3. Provide the folder path and filename prefix
+
+Example:
+
+```text
 Enter folder path:
 D:\RenameTest
 
@@ -69,38 +106,72 @@ Rename files (y/n)?
 y
 
 ✓ Renamed:
-IMG001.jpg → Holiday_001.jpg
+
+IMG001.jpg
+↓
+
+Holiday_001.jpg
 
 ✓ Renamed:
-IMG002.jpg → Holiday_002.jpg
+
+IMG002.jpg
+↓
+
+Holiday_002.jpg
+
+==========
 
 Finished!
 
 Files renamed: 8
+
+==========
 ```
-The script will safely rename all supported files while preserving their original extensions.
 
+---
 
-## 📁 Project Structure
+# 📁 Project Structure
 
 ```text
 python-bulk-file-renamer/
-├── bulk_file_renamer.py    # Main automation script
-├── README.md               # Project documentation
+
+├── bulk_file_renamer.py      # Main automation script
+├── README.md                 # Project documentation
+├── LICENSE                   # MIT License
 └── images/
-    ├── before.png
-    ├── terminal.png
-    └── after.png
+    ├── folder-before.png
+    ├── renaming-process.png
+    └── folder-after.png
 ```
 
 ---
 
-## 🔮 Roadmap & Future Improvements
- * Add suffix-based renaming support
- * Add preview mode before execution
- * Support metadata-based renaming (dates, timestamps)
- * Add undo functionality
- * GUI version for non-technical users
+# 💼 Practical Use Cases
+
+This automation tool can help with:
+
+- Organizing photo collections
+- Renaming scanned documents
+- Preparing datasets for machine learning
+- Standardizing project assets
+- Managing files before backup or archival
+
 ---
 
-Created by **DevBlueprint Lab**
+# 🔮 Future Improvements
+
+- Add suffix-based renaming
+- Add preview mode before execution
+- Support date- and metadata-based renaming
+- Add undo functionality
+- Develop a graphical user interface (GUI)
+
+---
+
+# 📜 License
+
+This project is licensed under the MIT License.
+
+---
+
+Developed by **DevBlueprintLab**
